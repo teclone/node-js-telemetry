@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./build",
+    "target": "ES2015",
+    "declaration": true,
+    "declarationDir": "./build",
+    "noImplicitAny": false,
+    "downlevelIteration": true,
+    "strictNullChecks": true,
+    "lib": [
+      "es5",
+      "es2015.collection",
+      "es2015.iterable"
+    ],
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src"
+  ]
+}
